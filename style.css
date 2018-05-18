@@ -1,0 +1,145 @@
+body{
+    font-family: Arial;
+    font-style: italic;
+    background-color: white;  
+    width:90%; 
+        
+    margin:0 auto;   
+}
+h2{
+    font-size:3vw;
+    text-align: center;
+    color: whitesmoke;;
+    padding: 0;
+    width: 50%;
+    margin: 3vw auto;    
+    background:  rgba(150, 182, 166, 0.555);
+    cursor: pointer;
+    border-radius: 3vw;
+}
+h2:hover{
+    background-color: white;
+    color:black;
+
+}
+.main-container{
+    
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(th.jpg); 
+    width:80%;    
+    background-color:blanchedalmond;
+    margin:0 auto;
+    padding:2vw;       
+}
+.header {
+    display:grid;
+    grid-template-columns: 47% 33% 20%;
+    column-gap: 0.5vw;
+    padding-left: 7vw;
+    padding-bottom: 3vw;
+    color: white;
+    width:70%;
+    margin:0 auto;
+    margin-top: 7vw;
+    text-align: center;
+    background: rgba(255, 255, 255) transparent;
+    border-radius:3vw;    
+}
+#btn{
+    padding:0;
+    background-color: #3CBC8D;
+    font-size: 3vw;
+    border-radius: 50%;  
+    border:none; 
+    display:block;
+    height: 4.5vw;
+    width: 4.5vw;
+    cursor: pointer;
+    align-self: center;
+}
+#btn:hover{
+    color:white;
+}
+
+/* Style the input */
+input {
+    border:none;
+    padding: 2vw;
+    background-color: rgba(150, 182, 166, 0.555);
+    cursor:ponter;
+    border-radius:5vw;
+    color:black;
+    font-weight: bold;
+    font-size: 2vw;
+     
+}
+
+::placeholder{
+    color:black;
+    font-size:1.5vw;
+    font-weight: bold;
+}
+ul{
+    border-radius: 3vw;
+    overflow-y: scroll;
+    height: 20vw;
+}
+ul li {
+    display: grid;   
+    grid-template-columns: 10% 45% 25% 10% 10%;
+    margin-bottom: 1vw; 
+    width:70%;
+    margin:1vw auto;
+    margin-bottom: 1vw;
+    cursor: pointer;
+    padding:0.5vw; 
+    background: rgba(150, 182, 166, 0.55);
+    color:black;
+    list-style: none;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 3vw;
+}
+ul li #name{
+    justify-self: center;
+}
+ul li:hover{
+    background-color: rgba(9, 43, 26, 0.623);
+}
+#done li #name {
+    text-decoration: line-through;
+}
+
+.del-button,#undo,#edit{
+    padding:0;
+    background-color: #3CBC8D;
+    font-size: 2vw;
+    border-radius: 50%;  
+    border:none; 
+    display:block;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#undo{
+    margin-left: 2vw;
+}
+.del-button:hover,#edit:hover{
+    background-color: white;
+}
+
+.checkbox{
+    width: 6vw;
+    height: 2.35vw;
+    color:green;
+}
+#edit{
+    cursor: pointer;
+}
